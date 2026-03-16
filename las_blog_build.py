@@ -26,7 +26,7 @@ MANIFEST_FILE = ROOT / "posts_manifest.json"
 QUEUE_FILE = ROOT / "aqe_queue.json"
 TAXONOMY_FILE = ROOT / "taxonomy.json"
 SKILL_FILE = ROOT / "SKILL.md"
-SITE_DIR = ROOT / "site"
+SITE_DIR = ROOT / "docs"
 
 POSTS_DIR.mkdir(exist_ok=True)
 SITE_DIR.mkdir(exist_ok=True)
