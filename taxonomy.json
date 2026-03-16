@@ -1,0 +1,214 @@
+{
+  "brand": "Layer Advisory Services",
+  "author": "Erica Layer",
+  "domain": "blog.layeradvisory.com",
+  "site_title": "Layer Advisory Blog",
+  "site_description": "Operational clarity, sustainable growth, and the space to lead. Practical insights from a Fractional COO.",
+  "clusters": [
+    {
+      "id": "founder-dependency",
+      "name": "Founder Dependency",
+      "pillar_keyword": "how to stop being the bottleneck as a founder",
+      "pillar_slug": "founder-dependency-guide",
+      "description": "How founders move from doing everything to building teams that work without them",
+      "keywords": [
+        "founder bottleneck",
+        "founder dependency",
+        "how to delegate as a founder",
+        "founder letting go",
+        "founder burnout",
+        "scaling without founder dependency",
+        "how to stop micromanaging",
+        "founder to CEO transition",
+        "building a team that runs itself",
+        "fractional COO for founders"
+      ],
+      "question_types": [
+        "Why does everything still run through me?",
+        "How do I delegate without losing control?",
+        "What does a founder-independent operation look like?",
+        "When should a founder hire a COO?",
+        "How do I build trust with my team so I can let go?"
+      ],
+      "related_tools": ["diagnostic-assessment"]
+    },
+    {
+      "id": "operational-clarity",
+      "name": "Operational Clarity",
+      "pillar_keyword": "operational clarity for growing startups",
+      "pillar_slug": "operational-clarity-guide",
+      "description": "Processes, documentation, and systems that actually get used",
+      "keywords": [
+        "operational clarity",
+        "process documentation startups",
+        "SOPs for small teams",
+        "how to document processes",
+        "systems for growing businesses",
+        "operational efficiency nonprofit",
+        "business process improvement",
+        "organizational systems",
+        "startup operations",
+        "operations manual small business"
+      ],
+      "question_types": [
+        "How do I create processes without bureaucracy?",
+        "Why doesn't my team follow the processes we built?",
+        "What systems does a 10-person team actually need?",
+        "How do I get knowledge out of people's heads?",
+        "When is the right time to document processes?"
+      ],
+      "related_tools": ["diagnostic-assessment"]
+    },
+    {
+      "id": "team-alignment",
+      "name": "Team Alignment",
+      "pillar_keyword": "team alignment for scaling organizations",
+      "pillar_slug": "team-alignment-guide",
+      "description": "Priorities, accountability, and decision-making that keeps teams moving in the same direction",
+      "keywords": [
+        "team alignment startup",
+        "OKRs for small teams",
+        "how to set team priorities",
+        "accountability in growing teams",
+        "decision making framework startup",
+        "leadership team alignment",
+        "cross-functional alignment",
+        "quarterly planning small business",
+        "meeting cadence for teams",
+        "organizational alignment"
+      ],
+      "question_types": [
+        "How do I get my leadership team aligned?",
+        "What's the right meeting cadence for a 15-person company?",
+        "How do OKRs actually work in practice?",
+        "How do I make faster decisions without losing buy-in?",
+        "Why does my team keep working on the wrong things?"
+      ],
+      "related_tools": ["diagnostic-assessment"]
+    },
+    {
+      "id": "fractional-leadership",
+      "name": "Fractional Leadership",
+      "pillar_keyword": "what is a fractional COO",
+      "pillar_slug": "fractional-coo-guide",
+      "description": "What fractional COOs do, who they're for, and how to work with one effectively",
+      "keywords": [
+        "what is a fractional COO",
+        "fractional COO cost",
+        "fractional COO vs full time COO",
+        "when to hire a fractional COO",
+        "fractional COO for startups",
+        "fractional COO for nonprofits",
+        "fractional executive",
+        "part time COO",
+        "strategic operations partner",
+        "fractional COO benefits"
+      ],
+      "question_types": [
+        "What does a fractional COO actually do day to day?",
+        "Is a fractional COO right for my stage of growth?",
+        "How much does a fractional COO cost?",
+        "What's the difference between a fractional COO and a consultant?",
+        "How quickly can a fractional COO make an impact?"
+      ],
+      "related_tools": ["diagnostic-assessment"]
+    },
+    {
+      "id": "sustainable-growth",
+      "name": "Sustainable Growth",
+      "pillar_keyword": "sustainable business growth strategy",
+      "pillar_slug": "sustainable-growth-guide",
+      "description": "Focus, pacing, and the operational foundation that makes growth last",
+      "keywords": [
+        "sustainable business growth",
+        "scaling without burning out",
+        "focus for founders",
+        "startup growth pacing",
+        "avoiding startup burnout",
+        "priority setting for founders",
+        "how to grow without chaos",
+        "operational foundation for growth",
+        "team capacity planning",
+        "growth strategy small business"
+      ],
+      "question_types": [
+        "How do I grow without everything breaking?",
+        "Why does scaling feel so chaotic?",
+        "How do I know if we're trying to do too much?",
+        "What does sustainable growth actually look like?",
+        "How do I protect my team during rapid growth?"
+      ],
+      "related_tools": ["diagnostic-assessment"]
+    },
+    {
+      "id": "hiring-and-roles",
+      "name": "Hiring & Roles",
+      "pillar_keyword": "hiring for growing startups",
+      "pillar_slug": "startup-hiring-guide",
+      "description": "Right people, right seats, and building teams that thrive",
+      "keywords": [
+        "startup hiring strategy",
+        "how to hire your first team",
+        "role clarity startup",
+        "accountability chart small business",
+        "hiring for culture fit",
+        "employee retention startup",
+        "onboarding new hires",
+        "right people right roles",
+        "team structure growing company",
+        "hiring process improvement"
+      ],
+      "question_types": [
+        "How do I know when I need to hire?",
+        "What's the right team structure for a 20-person company?",
+        "How do I keep people once I've hired them?",
+        "How do I set up new hires to succeed?",
+        "When should I promote from within vs hire externally?"
+      ],
+      "related_tools": ["diagnostic-assessment"]
+    },
+    {
+      "id": "leadership-mindset",
+      "name": "Leadership Mindset",
+      "pillar_keyword": "leadership mindset for founders",
+      "pillar_slug": "founder-leadership-mindset",
+      "description": "The personal and professional habits that make leaders more effective",
+      "keywords": [
+        "founder leadership mindset",
+        "leadership habits",
+        "CEO mindset",
+        "leadership presence",
+        "founder self-management",
+        "work life balance founder",
+        "delegation mindset",
+        "leadership burnout prevention",
+        "executive productivity",
+        "founder mental health"
+      ],
+      "question_types": [
+        "How do I lead when I'm exhausted?",
+        "What habits do the best leaders have?",
+        "How do I stop second-guessing my decisions?",
+        "What does good leadership actually look like at my stage?",
+        "How do I build confidence as a first-time CEO?"
+      ],
+      "related_tools": ["diagnostic-assessment"]
+    }
+  ],
+  "post_defaults": {
+    "word_count_target": 850,
+    "word_count_min": 600,
+    "word_count_max": 1100,
+    "reading_level": "accessible professional",
+    "posts_per_week": 2,
+    "publish_days": ["Tuesday", "Friday"]
+  },
+  "site_metadata": {
+    "og_image_width": 1200,
+    "og_image_height": 630,
+    "og_bg_color": "#F5F2ED",
+    "og_text_color": "#2F2F2F",
+    "og_accent_color": "#4B637A",
+    "og_font": "Montserrat"
+  }
+}
