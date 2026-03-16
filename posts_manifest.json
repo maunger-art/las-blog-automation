@@ -1,1 +1,82 @@
-{"posts": []}
+{
+  "posts": [
+    {
+      "slug": "when-should-founder-hire-coo",
+      "title": "When Should a Founder Hire a COO? (And Why It's Not When You Think)",
+      "excerpt": "Most founders wait until they're drowning to hire a COO. But the best time isn't when everything is broken \u2014 it's when you catch yourself becoming the thing that slows everyone else down.",
+      "cluster": "founder-dependency",
+      "primary_keyword": "when should a founder hire a COO",
+      "published_at": "2026-03-16T22:07:19.004775+00:00",
+      "estimated_read_time": 4,
+      "tags": [
+        "FractionalCOO",
+        "Leadership",
+        "Founders",
+        "OperationalExcellence"
+      ],
+      "word_count": 847
+    },
+    {
+      "slug": "what-is-a-fractional-coo-ceo-guide",
+      "title": "What Is a Fractional COO? A CEO's Guide to Getting Unstuck",
+      "excerpt": "A Fractional COO isn't just a part-time employee. They're a strategic operating partner who helps founders build the systems and clarity needed to scale\u2014without the overhead of a full-time C-suite hire.",
+      "cluster": "fractional-leadership",
+      "primary_keyword": "what is a fractional COO",
+      "published_at": "2026-03-16T22:07:50.244913+00:00",
+      "estimated_read_time": 4,
+      "tags": [
+        "FractionalCOO",
+        "Leadership",
+        "Founders",
+        "OperationalExcellence"
+      ],
+      "word_count": 847
+    },
+    {
+      "slug": "how-to-get-leadership-team-aligned",
+      "title": "How to Get Your Leadership Team Aligned (Without Over-Engineering It)",
+      "excerpt": "Your leadership team keeps having the same conversations without reaching decisions. Here's what I learned about real alignment after years of meetings that went nowhere.",
+      "cluster": "team-alignment",
+      "primary_keyword": "how do I get my leadership team aligned",
+      "published_at": "2026-03-16T22:08:22.071346+00:00",
+      "estimated_read_time": 4,
+      "tags": [
+        "Leadership",
+        "TeamAlignment",
+        "OperationalExcellence",
+        "FractionalCOO"
+      ],
+      "word_count": 847
+    },
+    {
+      "slug": "what-systems-does-10-person-team-need",
+      "title": "What Systems Does a 10-Person Team Actually Need?",
+      "excerpt": "You don't need enterprise-level processes when you're 10 people. But you do need some structure. Here's what actually works\u2014and what doesn't\u2014when you're building systems for a growing team.",
+      "cluster": "operational-clarity",
+      "primary_keyword": "what systems does a 10-person team actually need",
+      "published_at": "2026-03-16T22:08:54.939647+00:00",
+      "estimated_read_time": 4,
+      "tags": [
+        "OperationalExcellence",
+        "Leadership",
+        "StartupOperations"
+      ],
+      "word_count": 847
+    },
+    {
+      "slug": "founder-bottleneck-cost-delegation",
+      "title": "The Real Cost of Being the Founder Bottleneck",
+      "excerpt": "You're working all the time and it's stressing the team out. That feedback hit harder than any performance metric ever could. Here's what I learned about being the founder bottleneck.",
+      "cluster": "founder-dependency",
+      "primary_keyword": "founder bottleneck",
+      "published_at": "2026-03-16T22:09:25.637537+00:00",
+      "estimated_read_time": 4,
+      "tags": [
+        "FractionalCOO",
+        "Leadership",
+        "Founders"
+      ],
+      "word_count": 847
+    }
+  ]
+}

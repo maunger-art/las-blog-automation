@@ -1,1 +1,80 @@
-{"queue": [], "last_updated": null}
+{
+  "queue": [
+    {
+      "keyword": "fractional COO vs full time COO",
+      "cluster": "fractional-leadership",
+      "priority": 6
+    },
+    {
+      "keyword": "Why does my team keep working on the wrong things?",
+      "cluster": "team-alignment",
+      "priority": 7
+    },
+    {
+      "keyword": "How do I create processes without bureaucracy?",
+      "cluster": "operational-clarity",
+      "priority": 8
+    },
+    {
+      "keyword": "How do I delegate without losing control?",
+      "cluster": "founder-dependency",
+      "priority": 9
+    },
+    {
+      "keyword": "when to hire a fractional COO",
+      "cluster": "fractional-leadership",
+      "priority": 10
+    },
+    {
+      "keyword": "How do I make faster decisions without losing buy-in?",
+      "cluster": "team-alignment",
+      "priority": 11
+    },
+    {
+      "keyword": "Why doesn't my team follow the processes we built?",
+      "cluster": "operational-clarity",
+      "priority": 12
+    },
+    {
+      "keyword": "founder to CEO transition",
+      "cluster": "founder-dependency",
+      "priority": 13
+    },
+    {
+      "keyword": "How much does a fractional COO cost?",
+      "cluster": "fractional-leadership",
+      "priority": 14
+    },
+    {
+      "keyword": "How do OKRs actually work in practice?",
+      "cluster": "team-alignment",
+      "priority": 15
+    },
+    {
+      "keyword": "How do I get knowledge out of people's heads?",
+      "cluster": "operational-clarity",
+      "priority": 16
+    },
+    {
+      "keyword": "scaling without founder dependency",
+      "cluster": "founder-dependency",
+      "priority": 17
+    },
+    {
+      "keyword": "What does a fractional COO actually do day to day?",
+      "cluster": "fractional-leadership",
+      "priority": 18
+    },
+    {
+      "keyword": "What's the right meeting cadence for a 15-person company?",
+      "cluster": "team-alignment",
+      "priority": 19
+    },
+    {
+      "keyword": "When is the right time to document processes?",
+      "cluster": "operational-clarity",
+      "priority": 20
+    }
+  ],
+  "last_updated": "2026-03-16T22:06:47.471720+00:00"
+}
