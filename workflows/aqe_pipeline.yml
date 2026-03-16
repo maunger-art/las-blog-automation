@@ -1,0 +1,46 @@
+name: AQE Pipeline - Layer Advisory
+
+on:
+  schedule:
+    - cron: '0 6 * * 0'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'Keywords to generate'
+        required: false
+        default: '20'
+
+jobs:
+  refresh-queue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Refresh keyword queue
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          COUNT="${{ github.event.inputs.count || '20' }}"
+          python3 las_aqe_pipeline.py --generate --count $COUNT
+
+      - name: Queue status
+        run: python3 las_aqe_pipeline.py --status
+
+      - name: Commit queue update
+        run: |
+          git config --global user.name "Layer Advisory Bot"
+          git config --global user.email "bot@layeradvisory.com"
+          git add aqe_queue.json
+          git diff --staged --quiet || git commit -m "AQE: refresh keyword queue $(date +'%Y-%m-%d')"
+          git push
