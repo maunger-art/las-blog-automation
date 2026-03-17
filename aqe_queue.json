@@ -74,7 +74,147 @@
       "keyword": "When is the right time to document processes?",
       "cluster": "operational-clarity",
       "priority": 20
+    },
+    {
+      "keyword": "When the Founder Becomes the Bottleneck: Understanding the Warning Signs",
+      "cluster": "founder-dependency",
+      "priority": 1,
+      "source": "oqe",
+      "oqe_score": 77.0
+    },
+    {
+      "keyword": "The Hidden Weight of Building: Understanding Founder Burnout",
+      "cluster": "sustainable-growth",
+      "priority": 2,
+      "source": "oqe",
+      "oqe_score": 77.0
+    },
+    {
+      "keyword": "Beyond Pushing Through: A Practical Guide to Founder Burnout Recovery",
+      "cluster": "sustainable-growth",
+      "priority": 3,
+      "source": "oqe",
+      "oqe_score": 75.0
+    },
+    {
+      "keyword": "When Your Company Can't Function Without You: The Founder Dependency Trap",
+      "cluster": "founder-dependency",
+      "priority": 4,
+      "source": "oqe",
+      "oqe_score": 75.0
+    },
+    {
+      "keyword": "Finding Your Growth Partners: How Founders Build Teams That Actually Help",
+      "cluster": "founder-dependency",
+      "priority": 5,
+      "source": "oqe",
+      "oqe_score": 73.0
+    },
+    {
+      "keyword": "Your First Hires: Why Generalists vs. Specialists Isn't the Right Question",
+      "cluster": "sustainable-growth",
+      "priority": 6,
+      "source": "oqe",
+      "oqe_score": 73.0
+    },
+    {
+      "keyword": "The Solo Founder's Dilemma: Knowing When It's Time to Hire",
+      "cluster": "hiring-and-roles",
+      "priority": 7,
+      "source": "oqe",
+      "oqe_score": 72.0
+    },
+    {
+      "keyword": "From Founder-Led to Founder-Free: Building Sales Systems That Scale",
+      "cluster": "operational-clarity",
+      "priority": 8,
+      "source": "oqe",
+      "oqe_score": 70.0
+    },
+    {
+      "keyword": "Making Remote Teams Work: Process Design for Global Collaboration",
+      "cluster": "operational-clarity",
+      "priority": 9,
+      "source": "oqe",
+      "oqe_score": 68.0
+    },
+    {
+      "keyword": "The Real Cost of Fractional COO Leadership",
+      "cluster": "fractional-leadership",
+      "priority": 10,
+      "source": "oqe",
+      "oqe_score": 65.0
+    },
+    {
+      "keyword": "What Fractional COO Partnerships Get Wrong (And How to Avoid the Pitfalls)",
+      "cluster": "fractional-leadership",
+      "priority": 11,
+      "source": "oqe",
+      "oqe_score": 65.0
+    },
+    {
+      "keyword": "The Growth Walls SaaS Founders Hit Most Often",
+      "cluster": "founder-dependency",
+      "priority": 12,
+      "source": "oqe",
+      "oqe_score": 63.0
+    },
+    {
+      "keyword": "How One Home Brand Broke Through Founder Dependency to Add $1.6M",
+      "cluster": "team-alignment",
+      "priority": 13,
+      "source": "oqe",
+      "oqe_score": 63.0
+    },
+    {
+      "keyword": "Moving Past Founder Burnout: A Recovery Roadmap",
+      "cluster": "sustainable-growth",
+      "priority": 14,
+      "source": "oqe",
+      "oqe_score": 63.0
+    },
+    {
+      "keyword": "The Three Foundations Every Leader Needs to Master",
+      "cluster": "leadership-mindset",
+      "priority": 15,
+      "source": "oqe",
+      "oqe_score": 63.0
+    },
+    {
+      "keyword": "Why 42% Matters: The Science Behind Sustainable Work",
+      "cluster": "sustainable-growth",
+      "priority": 16,
+      "source": "oqe",
+      "oqe_score": 63.0
+    },
+    {
+      "keyword": "The Five Stages of Burnout Every Founder Should Recognize",
+      "cluster": "sustainable-growth",
+      "priority": 17,
+      "source": "oqe",
+      "oqe_score": 63.0
+    },
+    {
+      "keyword": "Go-to-Market Reality Check for European Founders",
+      "cluster": "founder-dependency",
+      "priority": 18,
+      "source": "oqe",
+      "oqe_score": 62.0
+    },
+    {
+      "keyword": "The Bottlenecks That Stop B2B SaaS Growth Dead",
+      "cluster": "founder-dependency",
+      "priority": 19,
+      "source": "oqe",
+      "oqe_score": 62.0
+    },
+    {
+      "keyword": "When Dedication Becomes Destruction: Recognizing the Burnout Line",
+      "cluster": "sustainable-growth",
+      "priority": 20,
+      "source": "oqe",
+      "oqe_score": 62.0
     }
   ],
-  "last_updated": "2026-03-16T22:06:47.471720+00:00"
+  "last_updated": "2026-03-17T18:28:02.497041+00:00"
 }

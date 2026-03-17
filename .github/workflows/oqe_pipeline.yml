@@ -6,7 +6,11 @@ on:
   workflow_dispatch:
     inputs:
       sources:
+<<<<<<< HEAD
         description: 'Sources to run'
+=======
+        description: 'Sources (space-separated)'
+>>>>>>> ab819d3 (OQE: first harvest)
         required: false
         default: 'reddit google_paa indie_hackers'
 

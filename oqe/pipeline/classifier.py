@@ -1,4 +1,5 @@
 CLUSTER_SIGNALS = {
+<<<<<<< HEAD
     "founder-dependency": ["bottleneck","everything through me","cant delegate","doing everything","founder dependency","letting go","micromanage","trust my team","step back"],
     "operational-clarity": ["process","processes","documentation","sop","standard operating","systems","workflow","consistency","documented","playbook","handbook"],
     "team-alignment": ["align","alignment","okr","goals","priorities","quarterly","accountability","scorecard","decision","communication","same page"],
@@ -14,11 +15,34 @@ CONTENT_TYPES = {
     "comparison": ["vs ","versus","difference between","which is"],
     "story": ["why does","why is","why do"],
 }
+=======
+    "founder-dependency": ["bottleneck","everything through me","cant delegate","doing everything","stop being the bottleneck","depends on me","founder dependency","letting go","micromanage","trust my team","step back"],
+    "operational-clarity": ["process","processes","documentation","sop","standard operating","systems","workflow","how we work","consistency","documented","playbook","handbook"],
+    "team-alignment": ["align","alignment","okr","goals","priorities","team meeting","quarterly","accountability","scorecard","decision","communication","same page"],
+    "fractional-leadership": ["fractional coo","fractional executive","part time coo","what is a fractional","hire a fractional","need a coo","do i need a coo"],
+    "sustainable-growth": ["scale","scaling","growing too fast","overwhelmed","burnout","sustainable","capacity","too much on my plate","prioritize","focus","growth feels chaotic"],
+    "hiring-and-roles": ["hire","hiring","first hire","job description","role clarity","accountability chart","onboarding","retain","retention","turnover","right person","right seat"],
+    "leadership-mindset": ["leadership","founder mindset","ceo mindset","confidence","burnout","work life balance","habits","productivity","decision making","slack time"],
+}
+
+CONTENT_TYPES = {
+    "how-to": ["how do i","how to","how can i","how should i","steps to"],
+    "what-is": ["what is","what are","what does","whats the difference","explain"],
+    "when-to": ["when should","when do i","when is the right time"],
+    "comparison": ["vs ","versus","difference between","which is"],
+    "story": ["why does","why is","why do","why cant"],
+}
+
+>>>>>>> ab819d3 (OQE: first harvest)
 TOOL_LINKS = {
     "fractional-leadership": {"tool_id":"diagnostic-assessment","tool_url":"https://layeradvisory.com/#diagnostic","cta_copy":"Not sure if you need a fractional COO? Take the 5-minute diagnostic."},
     "founder-dependency": {"tool_id":"diagnostic-assessment","tool_url":"https://layeradvisory.com/#diagnostic","cta_copy":"Find out where founder dependency is costing you most."},
     "operational-clarity": {"tool_id":"diagnostic-assessment","tool_url":"https://layeradvisory.com/#diagnostic","cta_copy":"Discover which operational gaps are slowing your team down."},
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ab819d3 (OQE: first harvest)
 def match_cluster(text, taxonomy):
     tl = text.lower()
     scores = {}
@@ -41,7 +65,13 @@ def classify_question(question, taxonomy):
     text = question.get("normalized_text", question.get("text", ""))
     cid = match_cluster(text, taxonomy)
     if not cid:
+<<<<<<< HEAD
         question["status"] = "discarded"; question["discard_reason"] = "no cluster match"; return question
+=======
+        question["status"] = "discarded"
+        question["discard_reason"] = "no cluster match"
+        return question
+>>>>>>> ab819d3 (OQE: first harvest)
     question["cluster_id"] = cid
     question["content_type"] = infer_content_type(text)
     question["tool_link"] = TOOL_LINKS.get(cid)

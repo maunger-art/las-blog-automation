@@ -27,17 +27,31 @@ class GooglePAASource(BaseSource):
             data = json.loads(r.read())
         return [RawQuestion(text=i.get("question", ""), source=self.name,
             source_url=f"https://google.com/search?q={urllib.parse.quote(i.get('question',''))}",
+<<<<<<< HEAD
             source_context=f"Google PAA", upvotes=50)
+=======
+            source_context=f"Google PAA — {keyword}", upvotes=50)
+>>>>>>> ab819d3 (OQE: first harvest)
             for i in data.get("related_questions", []) if i.get("question")][:self.max_per]
 
     def _via_claude(self, keyword):
         import anthropic
         client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+<<<<<<< HEAD
         resp = client.messages.create(model="claude-sonnet-4-20250514", max_tokens=500,
             messages=[{"role":"user","content":f'Generate 8 realistic People Also Ask questions for: "{keyword}". Founders and operators. Return ONLY a JSON array of strings.'}])
+=======
+        resp = client.messages.create(
+            model="claude-sonnet-4-20250514", max_tokens=500,
+            messages=[{"role": "user", "content": f'Generate 8 realistic "People Also Ask" questions for: "{keyword}". Focus on founders and operators. Return ONLY a JSON array of strings.'}])
+>>>>>>> ab819d3 (OQE: first harvest)
         raw = re.sub(r'^```json\s*', '', resp.content[0].text.strip())
         raw = re.sub(r'\s*```$', '', raw)
         return [RawQuestion(text=t, source=self.name,
             source_url=f"https://google.com/search?q={urllib.parse.quote(t)}",
+<<<<<<< HEAD
             source_context=f"Google PAA synthesized", upvotes=40)
+=======
+            source_context=f"Google PAA (synthesized) — {keyword}", upvotes=40)
+>>>>>>> ab819d3 (OQE: first harvest)
             for t in json.loads(raw)]
