@@ -1,2 +1,7 @@
 .DS_Store
 get-pip.py
+__pycache__/
+*.pyc
+*.zip
+oqe-engine/
+write_oqe.py
