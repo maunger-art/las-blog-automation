@@ -1,0 +1,34 @@
+name: OQE Pipeline - Layer Advisory
+
+on:
+  schedule:
+    - cron: '0 5 * * 6'
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: 'Sources to run'
+        required: false
+        default: 'reddit google_paa indie_hackers'
+
+jobs:
+  run-oqe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - run: pip install anthropic
+      - name: Run OQE
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python3 run_oqe.py --sources ${{ github.event.inputs.sources || 'reddit google_paa indie_hackers' }}
+      - run: |
+          git config --global user.name "Layer Advisory Bot"
+          git config --global user.email "bot@layeradvisory.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "OQE: harvest $(date +'%Y-%m-%d')"
+          git push
