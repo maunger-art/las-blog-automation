@@ -51,7 +51,7 @@ def save_json(path, data):
 def build_system_prompt(skill_text, taxonomy):
     brand = taxonomy.get("brand", "Layer Advisory Services")
     author = taxonomy.get("author", "Erica Layer")
-    domain = taxonomy.get("domain", "blog.layeradvisory.com")
+    domain = taxonomy.get("domain", "layeradvisory.com/blog")
 
     return f"""You are the content engine for {brand}, writing blog posts in the authentic voice of {author}.
 
@@ -143,7 +143,7 @@ Return only the JSON object. Nothing else."""
 def write_post_html(post_data, taxonomy):
     brand = taxonomy.get("brand", "Layer Advisory Services")
     author = taxonomy.get("author", "Erica Layer")
-    domain = taxonomy.get("domain", "blog.layeradvisory.com")
+    domain = taxonomy.get("domain", "layeradvisory.com/blog")
 
     pub_date = datetime.now(timezone.utc).strftime("%B %d, %Y")
     pub_iso = datetime.now(timezone.utc).isoformat()
@@ -400,7 +400,7 @@ nav a:hover { color: var(--gold); }
 def build_index(manifest, taxonomy):
     brand = taxonomy.get("brand", "Layer Advisory Services")
     author = taxonomy.get("author", "Erica Layer")
-    domain = taxonomy.get("domain", "blog.layeradvisory.com")
+    domain = taxonomy.get("domain", "layeradvisory.com/blog")
 
     posts = sorted(manifest.get("posts", []), key=lambda p: p.get("published_at", ""), reverse=True)
 
@@ -478,7 +478,7 @@ def build_index(manifest, taxonomy):
 
 # ── Sitemap Builder ───────────────────────────────────────────────────────────
 def build_sitemap(manifest, taxonomy):
-    domain = taxonomy.get("domain", "blog.layeradvisory.com")
+    domain = taxonomy.get("domain", "layeradvisory.com/blog")
     posts = manifest.get("posts", [])
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
